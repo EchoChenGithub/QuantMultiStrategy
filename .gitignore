@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Data - 避免上传大数据或敏感数据
+data/*
+
+# IDE / Editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Results
+results/*
+OS generated files
+.DS_Store
+Thumbs.db
